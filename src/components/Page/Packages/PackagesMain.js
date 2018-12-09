@@ -11,7 +11,7 @@ const DisplayContent = {
 
 }
 
-class App extends Component {
+class PackagesMain extends Component {
 
 
     render() {
@@ -68,4 +68,4 @@ class App extends Component {
     }
 }
 
-export default App;
+export default PackagesMain;

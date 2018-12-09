@@ -4,6 +4,7 @@ import './index.css';
 import * as serviceWorker from './serviceWorker';
 import PackagesMain  from './components/Page/Packages/PackagesMain';
 import VisaMain from './components/Page/Visa/VisaMain';
+import ContactUsMain from './components/Page/Contactus/ContactUsMain';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 ReactDOM.render(
@@ -11,6 +12,7 @@ ReactDOM.render(
   <div>
     <Route exact path="/" component={PackagesMain} />
     <Route path="/visa" component={VisaMain} />
+    <Route path="/contactus" component={ContactUsMain} />
   </div>
   </Router>
     

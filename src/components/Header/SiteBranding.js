@@ -40,7 +40,7 @@ const SiteBranding = (props) => {
                         <Link to="/aboutus">About Us</Link>
                         </li>
                         <li>
-                        <Link to="/Contactus">Contact Us</Link>
+                        <Link to="/contactus">Contact Us</Link>
                         </li>
                         
                     </ul>
