@@ -6,6 +6,7 @@ import PackagesMain from './components/Page/Packages/PackagesMain';
 import VisaMain from './components/Page/Visa/VisaMain';
 import ContactUsMain from './components/Page/Contactus/ContactUsMain';
 import CityTourMain from './components/Page/CityTour/CityTourMain';
+import AboutUsMain from './components/Page/AboutUs/AboutUsMain';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 ReactDOM.render(
@@ -15,6 +16,8 @@ ReactDOM.render(
       <Route path="/visa" component={VisaMain} />
       <Route path="/contactus" component={ContactUsMain} />
       <Route path="/citytour" component={CityTourMain} />
+      <Route path="/aboutus" component={AboutUsMain} />
+      
       <Route path="*" component="" />
 
     </div>

@@ -282,8 +282,8 @@ a:hover, a:active {
 /*---------------------------------
 #CityTourPage
 -----------------------------------*/
-.container.single-page.cityTourPage{
-    margin-top: 300px;
+.container.single-page{
+    margin-top: 100px;
 }
 
 

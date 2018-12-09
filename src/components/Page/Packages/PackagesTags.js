@@ -24,7 +24,7 @@ class PackagesTags extends React.Component {
                 <Helmet>
                     <meta charSet="utf-8" />
                     <title>{DescInfo.titleInfo}</title>
-                    <meta name="description" content={DescInfo.canonical} />
+                    <meta name="description" content={DescInfo.desc} />
                     <link rel="canonical" href={DescInfo.canonical} />
                 </Helmet>
             </div>

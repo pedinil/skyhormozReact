@@ -14,8 +14,8 @@ class ContactUsTags extends React.Component {
 
         const DescInfo = {
             titleInfo: "ContactUs",
-            desc: "testdsfsd",
-            canonical: "http://skyhormoz.com/visa"
+            desc: "desc",
+            canonical: "http://skyhormoz.com/contactus"
 
         }
 
@@ -24,7 +24,7 @@ class ContactUsTags extends React.Component {
                 <Helmet>
                     <meta charSet="utf-8" />
                     <title>{DescInfo.titleInfo}</title>
-                    <meta name="description" content={DescInfo.canonical} />
+                    <meta name="description" content={DescInfo.desc} />
                     <link rel="canonical" href={DescInfo.canonical} />
                 </Helmet>
             </div>
