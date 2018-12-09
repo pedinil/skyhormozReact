@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import HeaderAll from '../../Header/HeaderAll';
 import ContactUsTags from './ContactUsTags';
+import FooterAll from '../../Footer/FooterAll';
 
 
 
@@ -43,7 +44,7 @@ class ContactUsMain extends Component {
                                             <li><a href="https://twitter.com/skyhormoz"><i class="fa fa-twitter"></i></a></li>
                                             <li><a href="https://www.instagram.com/skyhormoztravelsllc/"><i class="fa fa-instagram"></i></a></li>
                                             <li><a href="https://www.linkedin.com/in/sky-hormoz-7b83b216b"><i class="fa fa-linkedin"></i></a></li>
-                                            <li><a href="https://goo.gl/iAtgSE"><i class="fa fa-google"></i></a></li>
+                                           
                                         </ul>
                                     </div>
 
@@ -58,9 +59,10 @@ class ContactUsMain extends Component {
                         </div>
                     </div>
                     </div>
+                    <FooterAll />
                     </div>
 
-
+               
                     );
                 }
             }

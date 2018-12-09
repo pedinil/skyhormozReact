@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import HeaderAll from '../../Header/HeaderAll';
 import VisaTags from './VisaTags';
-
+import FooterAll from '../../Footer/FooterAll';
 
 
 
@@ -14,6 +14,8 @@ class App extends Component {
                 <VisaTags />
                 <HeaderAll titlePage="Visa" />
                 </div>
+
+                <FooterAll />
             </div>
 
 

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import HeaderAll from '../../Header/HeaderAll';
 import PackagesTags from './PackagesTags';
 import RecipeReviewCard from './RecipeReviewCard';
+import FooterAll from '../../Footer/FooterAll';
 
 
 const DisplayContent = {
@@ -58,6 +59,8 @@ class PackagesMain extends Component {
 
                     </section>
                 </div>
+
+                <FooterAll />
             </div >
 
 
