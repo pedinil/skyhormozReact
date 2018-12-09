@@ -5,12 +5,7 @@ import RecipeReviewCard from './RecipeReviewCard';
 import FooterAll from '../../Footer/FooterAll';
 
 
-const DisplayContent = {
-    titleContent: 'test',
-    content: 'fst'
 
-
-}
 
 class PackagesMain extends Component {
 
