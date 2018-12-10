@@ -8,7 +8,7 @@ import { CityTourData } from './CityTourData';
 
 
 
-class CityTourMain extends Component {
+ class CityTourMain extends Component {
 
 
     render() {
@@ -16,19 +16,19 @@ class CityTourMain extends Component {
         const citytourList = CityTourData.map((result) => {
 
             return (
-                <div class="col-xs-12 col-lg-4 ">
-                <div class="content-wrap cityTourPage">
-                    <header class="entry-header">
-                        <h2 class="entry-title">{result.entryTitle}</h2>
+                <div  className="col-xs-12 col-lg-4 ">
+                <div  className="content-wrap cityTourPage">
+                    <header  className="entry-header">
+                        <h2  className="entry-title">{result.entryTitle}</h2>
                     </header>
-                    <div class="image-container">
-                        <figure class="featured-image">
+                    <div  className="image-container">
+                        <figure  className="featured-image">
                             <img src={result.imgSrc} alt={result.imgAlt} />
                         </figure>
                     </div>
-                    <div class="entry-header"><h3>{result.specialOffer}</h3></div>
-                    <div class="entry-content"><p>{result.entryContent}</p></div>
-                    <a href="https://wa.me/971561897911?text=Atlantis%20Tour">Whatsapp <i class="fa fa-whatsapp fa-3x"></i></a>
+                    <div  className="entry-header"><h3>{result.specialOffer}</h3></div>
+                    <div  className="entry-content"><p>{result.entryContent}</p></div>
+                    <a href="https://wa.me/971561897911?text=Atlantis%20Tour">Whatsapp <i  className="fa fa-whatsapp fa-3x"></i></a>
                 </div>
             </div>
             )
@@ -38,12 +38,12 @@ class CityTourMain extends Component {
 
         return (
             <div>
-                <div class="outer-container">
+                <div  className="outer-container">
                     <ContactUsTags />
                     <HeaderAll titlePage="City Tour" />
 
-                    <div class="container single-page cityTourPage">
-                    <div class="row">
+                    <div  className="container single-page cityTourPage">
+                    <div  className="row">
 
                    
                       {citytourList}

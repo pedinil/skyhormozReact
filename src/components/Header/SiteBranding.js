@@ -8,23 +8,23 @@ const SiteBranding = (props) => {
 
     return (
 
-        <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="site-branding flex flex-column align-items-center">
-                    <h1 class="site-title"><a href="index.html" rel="home">{props.titlePage}</a></h1>
+        <div  className="container">
+        <div  className="row">
+            <div  className="col-12">
+                <div  className="site-branding flex flex-column align-items-center">
+                    <h1  className="site-title"><a href="index.html" rel="home">{props.titlePage}</a></h1>
                 </div>
 
-                <nav class="site-navigation">
-                    <div class="hamburger-menu d-lg-none">
+                <nav  className="site-navigation">
+                    <div  className="hamburger-menu d-lg-none">
                         <span></span>
                         <span></span>
                         <span></span>
                         <span></span>
                     </div>
 
-                    <ul class="flex-lg flex-lg-row justify-content-lg-center align-content-lg-center">
-                        <li class="current-menu-item">
+                    <ul  className="flex-lg flex-lg-row justify-content-lg-center align-content-lg-center">
+                        <li  className="current-menu-item">
                         <Link to="/">Home</Link>
                         </li>
                         <li>

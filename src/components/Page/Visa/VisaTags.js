@@ -14,7 +14,7 @@ class VisaTags extends React.Component {
 
         const DescInfo = {
             titleInfo: "Visa",
-            desc: "testdsfsd",
+            desc: 'We are a passionate and responsible team with the vision of delivering the best & fast service assistance for our customers.',
             canonical: "http://skyhormoz.com/visa"
 
         }

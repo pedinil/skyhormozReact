@@ -25,18 +25,18 @@ class HomeMain extends Component {
         return (
 
             <div>
-                <div class="outer-container">
+                <div className="outer-container">
                     <HomeTags />
                     <HeaderAll titlePage="Sky Hormoz Travel" />
 
-                    <div class="container single-page">
-                        <div class="row">
-                            <div class="col-12 col-lg-9">
+                    <div className="container single-page">
+                        <div className="row">
+                            <div className="col-12 col-lg-9">
                             {HomeCenterList}
                                 
                             </div>
 
-                            <div class="col-12 col-lg-3">
+                            <div className="col-12 col-lg-3">
 
                                 <HomeRight />
 

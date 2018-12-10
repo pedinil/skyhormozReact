@@ -25,7 +25,7 @@ const items = [
   }
 ];
 
-class Swipper extends Component {
+ class Swipper extends Component {
   constructor(props) {
     super(props);
     this.state = { activeIndex: 0 };
@@ -78,10 +78,10 @@ class Swipper extends Component {
     });
 
     return (
-      <div class="container-fluid">
-        <div class="row align-items-center">
-          <div class="col-12">
-            <div class="swiper-container hero-slider">
+      <div  className="container-fluid">
+        <div  className="row align-items-center">
+          <div  className="col-12">
+            <div  className="swiper-container hero-slider">
               <Carousel
                 activeIndex={activeIndex}
                 next={this.next}

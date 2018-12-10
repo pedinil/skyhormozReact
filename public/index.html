@@ -5,36 +5,69 @@
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#000000">
-    <!--
-      manifest.json provides metadata used when your web app is added to the
-      homescreen on Android. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <title>Sky Hormoz</title>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "TravelAgency",
+        "name": "skyhormoz",
+        "image": "http://skyhormoz.com/images/logo.png",
+        "@id": "",
+        "url": "http://skyhormoz.com",
+        "telephone": "+971 4 323 2204",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Al Rigga Rd - Dubai",
+          "addressLocality": "Dubai",
+          "postalCode": "",
+          "addressCountry": "AE"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 25.265221,
+          "longitude": 55.322195
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Sunday"
+          ],
+          "opens": "09:00",
+          "closes": "19:00"
+        },
+        "sameAs": [
+          "https://www.facebook.com/skyhormoztravelsllc",
+          "https://twitter.com/skyhormoz",
+          "https://www.instagram.com/skyhormoztravelsllc/",
+          "https://www.youtube.com/channel/UCRc3IcV8bOK2eX1CROrtcQQ",
+          "https://www.linkedin.com/in/sky-hormoz-7b83b216b/"
+        ]
+      }
+      </script>
   </head>
   <body>
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <script type="text/javascript">
+      var LHCChatOptions = {};
+      LHCChatOptions.opt = {widget_height:340,widget_width:300,popup_height:520,popup_width:500};
+      (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        var referrer = (document.referrer) ? encodeURIComponent(document.referrer.substr(document.referrer.indexOf('://')+1)) : '';
+        var location  = (document.location) ? encodeURIComponent(window.location.href.substring(window.location.protocol.length)) : '';
+        po.src = '/livechat/index.php/chat/getstatus/(click)/internal/(position)/bottom_right/(ma)/br/(top)/350/(units)/pixels/(leaveamessage)/true?r='+referrer+'&l='+location;
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+      })();
+      </script>
   </body>
 </html>

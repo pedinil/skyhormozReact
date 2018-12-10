@@ -6,16 +6,16 @@ const HomeRight = () => {
 
     return (
         <div>
-<div class="sidebar">
+<div  className="sidebar">
                   
 
-                  <div class="recent-posts">
-                          <div class="recent-post-wrap">
+                  <div  className="recent-posts">
+                          <div  className="recent-post-wrap">
                               <figure>
                                   <img src="images/packagesky1.jpg" alt=""/>
                               </figure>
                   
-                              <header class="about-me">
+                              <header  className="about-me">
                                 
                   
                                   <h2>MANILA – DUBAI PACKAGE
@@ -30,7 +30,7 @@ const HomeRight = () => {
                                       
                                   </p>
                   
-                                  <div class="tags-links">
+                                  <div  className="tags-links">
                                       <a href="#">#winter</a>
                                       <a href="#">#love</a>
                                       <a href="#">#snow</a>

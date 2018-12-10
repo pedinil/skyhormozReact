@@ -13,7 +13,7 @@ const HeaderAll = (props) => {
     return (
 
         <div>
-            <header class="site-header">
+            <header className="site-header">
                 <HeaderComp />
                 <SiteBranding  titlePage={props.titlePage}/>
             </header>
