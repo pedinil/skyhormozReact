@@ -1,0 +1,20 @@
+
+
+.Link {
+  display: block;
+  border-bottom: 2px solid transparent;
+  color: #2f2f2f;
+  transition: all 0.35s;
+  text-decoration: none;
+  letter-spacing: 0.08rem;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-right: 40px;
+
+
+}
+
+.ct {
+margin:auto;
+}

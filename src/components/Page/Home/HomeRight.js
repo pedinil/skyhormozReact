@@ -18,8 +18,7 @@ const HomeRight = () => {
                               <header  className="about-me">
                                 
                   
-                                  <h2>MANILA – DUBAI PACKAGE
-                                  </h2>
+                                  <h2>MANILA – DUBAI PACKAGE Visa</h2>
                   
                                   <p>30 DAYS – 1,899 AED
                                       90 DAYS – 2,599 AED
@@ -27,7 +26,6 @@ const HomeRight = () => {
                                       TOURIST VISA
                                       FLIGHT TICKET W/RETURN TICKET
                                       COURIER AND OTHER DOCUMENTS
-                                      
                                   </p>
                   
                                   <div  className="tags-links">

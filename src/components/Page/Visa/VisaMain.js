@@ -20,16 +20,14 @@ import FooterAll from '../../Footer/FooterAll';
                         <div  className="col-12">
                             <div  className="content-wrap">
                                 <header  className="entry-header">
-                                    <h1  className="entry-title">We are a passionate and responsible team with the vision of
-                                       delivering
-                                       the best & fast service assistance for our customers.
+                                    <h1  className="entry-title">Dubai Visa
             </h1>
                                 </header>
                                 <div  className="entry-content">
                                     <div  className="v-header">
-                                        <h1  className="visa-headers"><span>MANILA TO DUBAI PACKAGE</span></h1>
+                                        <h1  className="visa-headers"><span>UAE Visa </span></h1>
                                         <div  className="v-detail">
-                                            <p  className="visa-defination">&#10021 &nbsp Bring your family to witness the Essential
+                                            <p  className="visa-defination"> Bring your family to witness the Essential
                                                Beauty of Dubai, you
                                                may sponsor your spouse,
                      Kid/s, Family and Relatives (up to 2<sup>ND</sup> Degree).
