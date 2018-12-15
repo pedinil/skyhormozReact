@@ -8,6 +8,7 @@ class Gallery extends Component {
     render() {
         return (
             <div>
+                <div  className="outer-container">
                 <HeaderAll titlePage="Gallery" />
                 <GallaryTags />
                 <div className="container single-page contact-page">
@@ -19,7 +20,9 @@ class Gallery extends Component {
                         </div>
                     </div>
                     </div>
+                    </div>
                     <FooterAll />
+                    
                 </div>
                 );
             }
