@@ -54,10 +54,11 @@ export default class Example extends React.Component {
                   <DropdownItem>
                   <Link className="Link" to="/visa/packages"> Visa Packages</Link> 
                   </DropdownItem>
+                   {/*
                   <DropdownItem>
                     Dubai Visa
                   </DropdownItem>
-                  {/*
+                 
                   <DropdownItem divider />
                   <DropdownItem>
                     Reset
@@ -80,6 +81,10 @@ export default class Example extends React.Component {
                 </Link></NavItem>
                 <NavItem>
                 <Link to="/contactus" className="Link"><NavLink>Contact Us</NavLink></Link>
+                </NavItem>
+
+                 <NavItem>
+                <Link to="/gallery" className="Link"><NavLink>Gallary</NavLink></Link>
                 </NavItem>
                
                 
