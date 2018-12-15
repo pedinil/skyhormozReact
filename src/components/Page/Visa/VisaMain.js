@@ -37,7 +37,7 @@ class App extends Component {
                             <div className="col-12 col-lg-9">
                                 <div className="content-wrap">
                                     <header className="entry-header">
-                                        <h2 className="entry-title">Dubai Visa</h2>
+                                        <h2 className="entry-title">Dubai Visa Prices</h2>
 
                                         <div className="tags-links">
                                             <a href="#">#Sky Hormoz</a> <a href="#">#Dubai Visa</a>
@@ -46,6 +46,15 @@ class App extends Component {
 
                                     </header>
 
+                                    <div class="card-deck mb-6 text-center">
+                                    {VisaList}
+                                    </div>
+
+                                    <header className="entry-header">
+                                        <h2 className="entry-title">Dubai Visa</h2>
+
+
+                                    </header>
 
                                     <div className="entry-content">
                                         <p>
@@ -75,16 +84,9 @@ class App extends Component {
                                         </p>
                                     </div>
 
-                                    <header className="entry-header">
-                                        <h2 className="entry-title">Dubai Visa Prices</h2>
+                                    
 
-
-                                    </header>
-
-
-                                    <div class="card-deck mb-6 text-center">
-                                    {VisaList}
-                                    </div>
+                                  
 
 
 
