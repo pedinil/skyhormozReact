@@ -3,13 +3,13 @@ export const ImagetileData = [
     img: '/images/manila-packges.jpg',
     title: 'Image',
     author: 'author',
-    cols: 1
+    featured: true,
   },
   {
     img: '/images/manila-packges.jpg',
     title: 'Image',
     author: 'author',
-    cols: 5
+    featured: true,
   },
 ]
 
