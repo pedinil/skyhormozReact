@@ -7,6 +7,7 @@ import AboutUsMain from '../components/Page/AboutUs/AboutUsMain';
 import HomeMain from '../components/Page/Home/HomeMain';
 import Agent from '../components/Page/Agent/AgentMain';
 import Gallery from '../components/Page/Gallary/Gallary';
+import Form from '../components/Page/Form/Form';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 
@@ -27,6 +28,7 @@ class App extends Component {
         <Route path="/aboutus" component={AboutUsMain} />
         <Route path="/agent" component={Agent} />
         <Route path="/gallery" component={Gallery} />
+        <Route path='/Form' component={Form} />
         
   
       </div>
