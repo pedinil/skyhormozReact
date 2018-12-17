@@ -5,12 +5,12 @@ class FormData extends Component {
     constructor(props) {
       super(props);
       this.state = {
-        Firstname: "",
-        LastName: "",
-        Email:"",
-        Passport:"",
-        Date:"",
-        file:"",        
+        Firstname: '',
+        LastName: '',
+        Email:'',
+        Passport:'',
+        Date:'',
+        file:'',        
 
         
       };
@@ -18,10 +18,13 @@ class FormData extends Component {
       this.handleSubmit=this.handleSubmit.bind(this);
     }
     updateInput(event){
+        console.log(event.target.value);
+        console.log(event.target.value);
         this.setState({Firstname :event.target.value})    /*getting Error when adding other elements for setState */
     }
-    handleSubmit(){
-        console.log(+this.state.Firstname)        /*cnt console log other states */
+    handleSubmit(event){
+        console.log(this.state.Firstname)        /*cnt console log other states */
+        event.preventDefault();
     }
   
     render() {
@@ -43,7 +46,7 @@ class FormData extends Component {
                             <div class="form-group row">
                                 <label class="col-lg-3 col-form-label form-control-label">First name</label>
                                 <div class="col-lg-6">
-                                    <input class="form-control" type="text" onChange={this.updateInput.Firstname}  required />
+                                    <input class="form-control" type="text" onChange={this.updateInput}  value={this.state.Firstname} required />
                                 </div>
                             </div>
                             <div class="form-group row">
