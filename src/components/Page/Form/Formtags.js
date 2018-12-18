@@ -14,9 +14,9 @@ class Formtags extends React.Component {
 
 
         const DescInfo = {
-            titleInfo: "Form",
+            titleInfo: "Apply Online Visa",
             desc: "desc",
-            canonical: "http://skyhormoz.com/Form"
+            canonical: "http://skyhormoz.com/visa/Apply-online"
 
         }
 

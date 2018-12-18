@@ -14,7 +14,7 @@ class HomeTags extends React.Component {
 
         const DescInfo = {
             titleInfo: 'Sky Hormoz Travel',
-            desc: 'To create and provide a total Travel Management Package in terms of providing comprehensive and professionally effective service at minimum cost to the customer, using and utilizing the best available sources and technology, Also to nature a work culture and environment internally and externally that promotes total commitment and growth , thus becoming the most popular and reliable Travel Agency in the Region setting standards in the industry for professionalism and reliability to the customer.',
+            desc: ' Travel Management Package , 30 Days  Dubai VISA , 90 Days Dubai Visa , Airport to Airport Visa packages , Dubai Visa Prices , Sharjah Visa  ,MANILA TO DUBAI PACKAGE ,ARMENIA To Dubai VISA PACKAGE ,OMAN To Dubai VISA PACKAGE',
             canonical: 'http://skyhormoz.com'
 
         }
