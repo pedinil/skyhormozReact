@@ -5,12 +5,12 @@ import FooterAll from '../../Footer/FooterAll';
 import HomeCenter from './HomeCenter';
 import HomeRight from './HomeRight';
 import { HomeDataCenter } from './HomeDataCenter';
+import HomeSwipper from './HomeSwipper';
 
 
 
 
-
-class HomeMain extends Component {
+class newHome extends Component {
     
     render() {
 
@@ -33,7 +33,7 @@ class HomeMain extends Component {
                     <div className="container single-page">
                         <div className="row">
                         <div className="col-12 col-lg-9">
-                    
+                        <HomeSwipper />
                         </div>
 
                             <div className="col-12 col-lg-9">
@@ -64,4 +64,4 @@ class HomeMain extends Component {
     }
 }
 
-export default HomeMain;
+export default newHome;
