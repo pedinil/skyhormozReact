@@ -1,7 +1,5 @@
 import React from 'react';
 import './Home.css';
-import '../../../css/bootstrap.min.css';
-import '../../../css/swiper.min.css';
 
 
 
@@ -12,7 +10,7 @@ const HomeSwipper=(props)=>{
                 <img className='card-img' src={props.result.cardimg} />
                 <p className='description'>{props.result.description}</p>
                 <p className='cost'>{props.result.cost}</p>
-                <button className='button'>Order</button>
+                <button className='btn btn-primary'>Order</button>
                 
                 </div>
                 </div>

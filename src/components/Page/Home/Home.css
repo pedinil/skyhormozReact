@@ -1,10 +1,10 @@
 .card-img{
-    height: 120px;
-    width: 50px;
+    height: 150px;
+    width: 100%;
 }
 .container-swip{
     width: 270px;
-    height: 250px;
+    height: 280px;
     -webkit-box-shadow: 9px 5px 16px 0px rgba(51, 50, 50, 0.75);
 -moz-box-shadow:    9px 5px 16px 0px rgba(51, 50, 50, 0.75);
 box-shadow:         9px 5px 16px 0px rgba(51, 50, 50, 0.75);
@@ -15,6 +15,9 @@ padding: 5px;
 .card:hover{
     transform: scale(1.1,1.1);
 }
-.button{
+.btn{
     width: 100px;
+}
+.swipper-title{
+    text-align: center;
 }
