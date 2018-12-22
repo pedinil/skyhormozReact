@@ -15,7 +15,7 @@ const HomeRight = (props) => {
                           <header  className="about-me">
                                 
                   
-                                <h2>MANILA – DUBAI PACKAGE Visa</h2>
+                                <h2>{props.result.entryTitle}</h2>
                 
                                 <div  className="tags-links">
                                     <a href="#">#winter</a>
@@ -24,9 +24,9 @@ const HomeRight = (props) => {
                                     <a href="#">#january</a>
                                 </div>
                             </header>
-                            
+
                               <figure>
-                                  <img src="images/packagesky1.jpg" alt=""/>
+                                  <img src={props.result.imgSrc} alt={props.result.imgAlt}/>
                               </figure>
                   
                              
