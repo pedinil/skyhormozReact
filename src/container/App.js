@@ -9,6 +9,7 @@ import Agent from '../components/Page/Agent/AgentMain';
 import Gallery from '../components/Page/Gallary/Gallary';
 import Form from '../components/Page/Form/Form';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+import newHome from '../components/Page/Home/newHome';
 
 
 
@@ -20,7 +21,7 @@ class App extends Component {
     return (
       <Router>
       <div>
-        <Route exact path="/" component={HomeMain} />
+        <Route exact path="/" component={newHome} />
         <Route exact path="/visa" component={VisaMain} />
         <Route exact path="/visa/packages" component={PackagesMain} />
         <Route path="/contactus" component={ContactUsMain} />

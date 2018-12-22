@@ -6,6 +6,7 @@ import HomeCenter from './HomeCenter';
 import HomeRight from './HomeRight';
 import { HomeDataCenter } from './HomeDataCenter';
 import HomeSwipper from './HomeSwipper';
+import {DataHomeSwipper} from './DataHomeSwipper';
 
 
 
@@ -14,6 +15,12 @@ class newHome extends Component {
     
     render() {
 
+        const HomeSwipperList=DataHomeSwipper.map((result)=>{
+            return(
+                <HomeSwipper result={result} />
+            )
+            
+        });
 
         const HomeCenterList = HomeDataCenter.map((result) => {
             return (
@@ -33,10 +40,11 @@ class newHome extends Component {
                     <div className="container single-page">
                         <div className="row">
                         <div className="col-12 col-lg-9">
-                        <HomeSwipper />
+                        {HomeSwipperList}
                         </div>
-
+                        
                             <div className="col-12 col-lg-9">
+                            
                             
                             
                             {HomeCenterList}
