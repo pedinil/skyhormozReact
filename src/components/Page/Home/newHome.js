@@ -39,9 +39,9 @@ class newHome extends Component {
 
                     <div className="container single-page">
                         <div className="row">
-                        <div className="col-12 col-lg-9">
+                        
                         {HomeSwipperList}
-                        </div>
+                        
                         
                             <div className="col-12 col-lg-9">
                             
