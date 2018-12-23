@@ -6,26 +6,26 @@ import HomeCenter from './HomeCenter';
 import HomeRight from './HomeRight';
 import { HomeDataCenter } from './HomeDataCenter';
 import HomeSwipper from './HomeSwipper';
-import {DataHomeSwipper} from './DataHomeSwipper';
+import { DataHomeSwipper } from './DataHomeSwipper';
 import './Home.css'
 
 
 
 
 class newHome extends Component {
-    
+
     render() {
 
-        const HomeSwipperList=DataHomeSwipper.map((result)=>{
-            return(
+        const HomeSwipperList = DataHomeSwipper.map((result) => {
+            return (
                 <HomeSwipper result={result} />
             )
-            
+
         });
 
         const HomeCenterList = HomeDataCenter.map((result) => {
             return (
-                <HomeCenter result={result}/> 
+                <HomeCenter result={result} />
             )
 
         });
@@ -37,35 +37,34 @@ class newHome extends Component {
                 <div className="outer-container">
                     <HomeTags />
                     <HeaderAll titlePage="Sky Hormoz Travel" />
-                    
-                
+
+
 
                     <div className="container single-page">
-                    <div className='swipper-title'>
-                            <h1>Special tours</h1>
-                        </div>
-                        <div className="row">
-                        
-                        
-                        {HomeSwipperList}
-                        
-                    
-                        
-                            <div className="col-12 col-lg-9">
-                            
-                            
-                            
-                            {HomeCenterList}
-                                
+
+                        <div className='swipper'>
+
+                            <div className='swipper-title'>
+                                <h1>Special tours</h1>
                             </div>
-
-                            <div className="col-12 col-lg-3">
-
-                                <HomeRight />
-
+                            <div className="row">
+                                {HomeSwipperList}
                             </div>
                         </div>
+                        
+
+                        <div className='swipper'>
+                            <div className='swipper-title'>
+                                <h1>Special tours</h1>
+                            </div>
+                            <div className="row">
+                                {HomeSwipperList}
+                            </div>
+
+                        </div>
+
                     </div>
+
                 </div>
 
 
