@@ -5,7 +5,7 @@ import FooterAll from '../../Footer/FooterAll';
 import HomeCenter from './HomeCenter';
 import HomeRight from './HomeRight';
 import { HomeDataCenter } from './HomeDataCenter';
-
+import { HomeDataRight } from './HomeDataRight';
 
 
 
@@ -22,6 +22,12 @@ class HomeMain extends Component {
 
         });
 
+        const HomeRightList = HomeDataRight.map((result) => {
+            return (
+                <HomeRight result={result}/> 
+            )
+
+        });
 
         return (
 
@@ -32,20 +38,16 @@ class HomeMain extends Component {
 
                     <div className="container single-page">
                         <div className="row">
-                        <div className="col-12 col-lg-9">
-                    
-                        </div>
 
-                            <div className="col-12 col-lg-9">
-                            
-                            
+                            <div className="col-12 col-lg-8">
+
                             {HomeCenterList}
                                 
                             </div>
 
-                            <div className="col-12 col-lg-3">
+                            <div className="col-12 col-lg-4">
 
-                                <HomeRight />
+                              {HomeRightList}
 
                             </div>
                         </div>

@@ -221,64 +221,6 @@ a:hover, a:active {
         margin: -10px 0 0;
     }
 }
-
-/*
-  Hamburger Menu
-----------------------------------------*/
-.hamburger-menu {
-    position: relative;
-    width: 100%;
-    max-width: 24px;
-    height: 22px;
-    margin: 0 auto;
-    transition: .5s ease-in-out;
-    cursor: pointer;
-}
-
-.hamburger-menu span {
-    display: block;
-    position: absolute;
-    height: 2px;
-    width: 100%;
-    background: #181818;
-    border-radius: 10px;
-    opacity: 1;
-    left: 0;
-    transition: .25s ease-in-out;
-}
-
-.hamburger-menu span:nth-child(1) {
-    top: 2px;
-}
-
-.hamburger-menu span:nth-child(2),
-.hamburger-menu span:nth-child(3) {
-    top: 10px;
-}
-
-.hamburger-menu span:nth-child(4) {
-    top: 18px;
-}
-
-.hamburger-menu.open span:nth-child(1) {
-    top: 18px;
-    width: 0;
-    left: 50%;
-}
-
-.hamburger-menu.open span:nth-child(2) {
-    transform: rotate(45deg);
-}
-
-.hamburger-menu.open span:nth-child(3) {
-    transform: rotate(-45deg);
-}
-
-.hamburger-menu.open span:nth-child(4) {
-    top: 18px;
-    width: 0;
-    left: 50%;
-}
 /*---------------------------------
 #CityTourPage
 -----------------------------------*/
@@ -535,6 +477,11 @@ margin-top: 191px;
     margin-top: 110px;
     text-align: center;
     color: #2b2a2a;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .single-page .content-wrap .posted-date {
@@ -1057,14 +1004,19 @@ border: 1px solid black;
 --------------------------------------------------------------*/
 .sidebar {
     margin-top: 110px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
-.single-page .sidebar {
+.single-page  {
     margin-top: 165px;
 }
 
 @media screen and (min-width: 992px){
-    .single-page .sidebar {
+    .single-page  {
         margin-top: 290px;
     }
 }

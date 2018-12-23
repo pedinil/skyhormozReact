@@ -1,37 +1,37 @@
 export const ImagetileData = [
   {
     img: '/images/touristdestination/16.png',
-    title: 'Image',
+    title: 'Dubai Amusement Park',
     author: 'author',
     featured: true,
   },
   {
     img: '/images/touristdestination/2016_motiongatetix_base.jpg',
-    title: 'Image',
+    title: 'Dubai parks',
     author: 'author',
     featured: true,
   },
   {
     img: '/images/touristdestination/24215_421590.jpg',
-    title: 'Image',
+    title: 'Dubai Frame',
     author: 'author',
     featured: true,
   },
   {
     img: '/images/touristdestination/6808423.jpg',
-    title: 'Image',
+    title: 'Al Badiyah Mosque',
     author: 'author',
     featured: true,
   },
   {
     img: '/images/touristdestination/13466424_10153686809762864_9128288640904417934_n.jpg',
-    title: 'Image',
+    title: 'Sheikh Zayed Mosque Fujairah',
     author: 'author',
     featured: true,
   },
   {
     img: '/images/touristdestination/16699530.jpg',
-    title: 'Image',
+    title: 'Al Seef Resorts Spa ',
     author: 'author',
     featured: true,
   },

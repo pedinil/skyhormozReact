@@ -20,10 +20,10 @@ return (
           <div class="card-body">
             <h1 class="card-title pricing-card-title">{props.DisplayContent.price}<small class="text-muted"></small></h1>
             <ul class="list-unstyled mt-3 mb-4">
-              <li>30 users included</li>
-              <li>15 GB of storage</li>
-              <li>Phone and email support</li>
-              <li>Help center access</li>
+              <li>Scanned Passport copy </li>
+              <li>Valid minimum for 6 months</li>
+              <li>Passport Size photographs </li>
+              <li>Old visit visa copy</li>
             </ul>
             <button type="button" class="btn btn-lg btn-block btn-primary" onClick={onclickEvent}>Contact us</button>
           </div>

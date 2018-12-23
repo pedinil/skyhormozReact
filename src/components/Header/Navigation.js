@@ -33,7 +33,7 @@ export default class Example extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="light" light expand="md">
+        <Navbar  light expand="md">
           {/*<NavbarBrand href="/">reactstrap</NavbarBrand>*/}
           <div className="ct">
             <NavbarToggler onClick={this.toggle} />
@@ -86,10 +86,11 @@ export default class Example extends React.Component {
                  <NavItem>
                 <Link to="/gallery" className="Link"><NavLink>Gallary</NavLink></Link>
                 </NavItem>
+                {/*
                 <NavItem>
                   <Link to='/Form' className="Link"><NavLink>Form</NavLink></Link>
                 </NavItem>
-               
+                */}
                 
     
               </Nav>
