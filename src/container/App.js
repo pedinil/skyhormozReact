@@ -10,10 +10,12 @@ import Gallery from '../components/Page/Gallary/Gallary';
 import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
 import Form from '../components/Page/Form/Form';
 
+
 class App extends Component {
   render() {
     return (
       <Router>
+
         <div>
           <Route exact path="/" component={HomeMain} />
           <Route exact path="/visa" component={VisaMain} />
@@ -31,6 +33,7 @@ class App extends Component {
 
         </div>
       </Router>
+
     );
   }
 }

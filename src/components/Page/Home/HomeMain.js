@@ -9,6 +9,7 @@ import { HomeDataRight } from './HomeDataRight';
 
 
 
+
 class HomeMain extends Component {
     
     render() {
@@ -37,7 +38,9 @@ class HomeMain extends Component {
 
                     <div className="container single-page">
                         <div className="row">
+
                             <div className="col-12 col-lg-8">
+
                             {HomeCenterList}
                                 
                             </div>
