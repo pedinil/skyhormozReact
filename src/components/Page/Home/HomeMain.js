@@ -3,11 +3,12 @@ import HeaderAll from '../../Header/HeaderAll';
 import HomeTags from './HomeTags';
 import FooterAll from '../../Footer/FooterAll';
 import HomeSwipper from './HomeSwipper';
+import LogBook from './LogBook';
 import { DataHomeSwipper } from './DataHomeSwipper';
 import { DataHomeCityTour } from './DataHomeCityTour';
 import { DataHomeVisaPackageTour } from './DataHomeVisaPackageTour';
-
-import './Home.css'
+import {DataLogBook} from './DataLogBook';
+import './Home.css';
 
 
 
@@ -18,7 +19,12 @@ class newHome extends Component {
 
 
 
+        const Logbook = DataLogBook.map((result) => {
+            return (
+                <LogBook result={result} />
+            )
 
+        });
 
         const HomeCityList = DataHomeCityTour.map((result) => {
             return (
@@ -26,7 +32,7 @@ class newHome extends Component {
             )
 
         });
-        
+
 
 
         const HomeVisaPackageTour = DataHomeVisaPackageTour.map((result) => {
@@ -35,7 +41,7 @@ class newHome extends Component {
             )
 
         });
-        
+
 
         return (
 
@@ -57,7 +63,7 @@ class newHome extends Component {
                                 {HomeVisaPackageTour}
                             </div>
                         </div>
-                        
+
 
                         <div className='swipper'>
                             <div className='swipper-title'>
@@ -68,20 +74,30 @@ class newHome extends Component {
                             </div>
 
                         </div>
+                        <div className="logBook">
+                            <h3 class="title3-heading">Tours</h3>
+                            <span class="br"></span>
+                            <div className="row logBook-container">
+                                {Logbook}
+
+                            </div>
+
+                        </div>
+
 
 
                         <div className='swipper'>
-                          
+
                             <iframe width="100%" height="700" src="https://www.youtube.com/embed/RVayg4SdC-Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            
+
 
                         </div>
-                     
+
 
                     </div>
 
 
-               
+
 
 
 
