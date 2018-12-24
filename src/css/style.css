@@ -21,10 +21,6 @@
     font-style: normal;
 }
 
-body {
-    color: #2f2f2f;
-    font-family: 'HelveticaNeueLTPro-Md';
-}
 
 img {
     vertical-align: baseline;
@@ -1109,23 +1105,7 @@ border: 1px solid black;
     }
 }
 
-/*--------------------------------------------------------------
-# swipper Tags
---------------------------------------------------------------*/
 
-.swipper {
-    margin-top: 100px;
-
-
-
-} 
-
-.swipper-title {
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
-
-}
 
 /*--------------------------------------------------------------
 # Sidebar Tags

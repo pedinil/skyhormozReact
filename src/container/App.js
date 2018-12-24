@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component,Suspense, lazy  } from 'react';
 import PackagesMain from '../components/Page/Visa/Packages/PackagesMain';
 import VisaMain from '../components/Page/Visa/VisaMain';
 import ContactUsMain from '../components/Page/Contactus/ContactUsMain';
@@ -9,6 +9,9 @@ import Agent from '../components/Page/Agent/AgentMain';
 import Gallery from '../components/Page/Gallary/Gallary';
 import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
 import Form from '../components/Page/Form/Form';
+
+
+
 
 
 class App extends Component {
