@@ -5,8 +5,8 @@ import './Home.css';
 const LogBook=(props)=>{
     return(
 
-        <div className="col-xs-12 col-lg-4">
-            <div class="text-center card card-wrapper">
+        <div className="container-log col-xs-12 col-lg-4" align="center">
+            <div class="text-center  card-wrapper " >
                 <a href={props.result.link} class="bgimage">
                     <img class="card-img" src={props.result.logImg} />
                 </a>

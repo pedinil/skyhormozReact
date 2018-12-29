@@ -9,6 +9,7 @@ import Agent from '../components/Page/Agent/AgentMain';
 import Gallery from '../components/Page/Gallary/Gallary';
 import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
 import Form from '../components/Page/Form/Form';
+import Form2 from '../components/Page/Form2/Form2';
 
 
 
@@ -29,6 +30,7 @@ class App extends Component {
           <Route path="/agent*" component={Agent} />
           <Route path="/gallery*" component={Gallery} />
           <Route path='/Form' component={Form} />
+          <Route path='/Form2' component={Form2} />
           <Route exact path="/visa.html" component={VisaMain} >
             <Redirect from='/visa.html' to='/visa' />
           </Route>
