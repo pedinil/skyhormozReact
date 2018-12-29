@@ -13,8 +13,8 @@ class VisaTags extends React.Component {
 
 
         const DescInfo = {
-            titleInfo: "Visa",
-            desc: 'We are a passionate and responsible team with the vision of delivering the best & fast service assistance for our customers.',
+            titleInfo: "UAE visa",
+            desc: 'skyhormoz can provide 14 Days UAT visa,30 days UAE visa , 90 days UAT visa for different nationality, we need Applying for UAE Visa takes 3 days or more working',
             canonical: "http://skyhormoz.com/visa"
 
         }
