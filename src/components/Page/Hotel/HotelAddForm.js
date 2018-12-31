@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Formtags from './Formtags';
-import FormData from './FormData';
+import Formtags from './HotelAddtags';
+import FormData from './HotelForm';
 import HeaderAll from '../../Header/HeaderAll';
 import FooterAll from '../../Footer/FooterAll';
 

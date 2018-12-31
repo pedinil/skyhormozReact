@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ImageUploader from 'react-images-upload';
 
 class FormData extends React.Component{
@@ -8,7 +8,7 @@ class FormData extends React.Component{
             Hotelname:'',
             HotelLocation:'',
             Description:'',
-            pictures:[],
+            pictures: [],
 
         };
         this.updateInput=this.updateInput.bind(this);
@@ -17,9 +17,9 @@ class FormData extends React.Component{
     }
     onDrop(picture){
         this.setState({
-            pictures:this.setState.pictures.concat(picture),
+            pictures: this.state.pictures.concat(picture),
         });
-        
+        console.log(this.state);
     }
     updateInput(event){
         if(event.target.name==="Hotelname"){

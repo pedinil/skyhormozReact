@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ImageUploader from 'react-images-upload';
 
 
-class FormData extends Component {
+class FormData extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
