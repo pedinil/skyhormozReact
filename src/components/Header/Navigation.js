@@ -96,6 +96,9 @@ export default class Example extends React.Component {
                 <NavItem>
                   <Link to='/Form2' className="Link"><NavLink>Form2</NavLink></Link>
                 </NavItem>
+                <NavItem>
+                  <Link to='/Hotel' className="Link"><NavLink>Hotel</NavLink></Link>
+                </NavItem>
                 
     
               </Nav>
