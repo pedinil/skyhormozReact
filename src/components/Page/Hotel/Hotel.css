@@ -11,3 +11,20 @@
 .container-hotel:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
+.htImg{
+    width: 310px;
+    height: 250px;
+    padding-right: 10px;
+    margin-left: -10px;
+    margin-right: -30px;
+    margin-top: -10px;    
+     
+}
+.fa-star{
+    color:yellow;
+}
+.search-bar{
+    width: 1500px;   
+   justify-content: center;
+   padding-left: 70px;
+}
