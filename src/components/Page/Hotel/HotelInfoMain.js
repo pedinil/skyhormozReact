@@ -16,7 +16,7 @@ import SearchBox from './Searchbox';
          super()
          this.state={
              Searchfield:'',
-             HotelInfo:HotelInfo
+             DataHotelInfo:DataHotelInfo
 
          }
      }
@@ -24,10 +24,11 @@ import SearchBox from './Searchbox';
          this.setState({Searchfield:event.target.value})
      }
     render() {
-        const filteredHotels=this.state.HotelInfo.filter(HotelInfo=>{
-            return HotelInfo.name.toLowerCase().includes(this.state.Searchfield.toLowerCase())
-        })
-        const Hotelinfo=DataHotelInfo.map((result)=>{
+        const filteredHotels=this.state.DataHotelInfo.filter(DataHotelInfo => {
+            return DataHotelInfo.HotelName.toLowerCase().includes(this.state.Searchfield.toLowerCase())
+        });
+
+        const Hotelinfo=filteredHotels.map((result)=>{
             return(
                 <HotelInfo result={result} />
             )
@@ -42,7 +43,7 @@ import SearchBox from './Searchbox';
                     <div className="HotelInfo">                    
                        <div className="row HotelInfo-container">
                        
-                                    {filteredHotels} 
+                                    {Hotelinfo} 
                             
 
                             </div>
