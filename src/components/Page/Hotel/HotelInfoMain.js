@@ -41,7 +41,7 @@ import SearchBox from './Searchbox';
                     <HeaderAll titlePage="Hotels" />
                     <SearchBox searchchange={this.onSearchChange} />
                     <div className="HotelInfo">                    
-                       <div className="row HotelInfo-container">
+                       <div className=" HotelInfo-container">
                        
                                     {Hotelinfo} 
                             
