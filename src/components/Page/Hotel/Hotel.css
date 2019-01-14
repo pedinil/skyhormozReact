@@ -31,6 +31,34 @@
 }
 .search-bar{
     width: 1500px;   
-   justify-content: center;
+   text-align: center;
    padding-left: 70px;
 }
+.Hotel-Names{
+    text-align: center;
+    margin-left: 350px;
+    margin-top: -38px;
+    
+}
+.Stars-number{
+    margin-left: 550px;
+    margin-top:-37px;
+    
+}
+
+
+
+
+
+body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #e3e3e3;
+  }
+  
+  .search .form-section{
+      background:rgba(0,0,0,0.6);
+      border: 2px solid #414141;
+      border-radius: 5px;
+      padding: 10px;
+  }
