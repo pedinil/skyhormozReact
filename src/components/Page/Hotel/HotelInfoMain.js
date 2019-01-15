@@ -15,24 +15,36 @@ import SearchBox from './Searchbox';
      constructor(){
          super()
          this.state={
+             SearchH:'Hotels',
+             SearchS:'Stars',
              Searchfield:'',
              DataHotelInfo:DataHotelInfo
 
          }
      }
      onSearchChange=(event)=>{
-         this.setState({Searchfield:event.target.value})
+         this.setState({Searchfield:event.target.value},{SearchH:event.target.value},{SearchS:event.target.value})
      }
+     render(){
+        const filteredHotels=this.state.DataHotelInfo.filter(DataHotelInfo=>{
+            return DataHotelInfo.HotelName.toLowerCase().includes(this.state.SearchH.toLowerCase())
+       
+});
+
     render() {
         const filteredHotels=this.state.DataHotelInfo.filter(DataHotelInfo => {
-            return DataHotelInfo.HotelName.toLowerCase().includes(this.state.Searchfield.toLowerCase())
+            return DataHotelInfo.Address.toLowerCase().includes(this.state.Searchfield.toLowerCase()),
+            
+        
         });
+    
 
         const Hotelinfo=filteredHotels.map((result)=>{
             return(
                 <HotelInfo result={result} />
             )
         });
+    
         return (
 
             <div>
@@ -41,7 +53,7 @@ import SearchBox from './Searchbox';
                     <HeaderAll titlePage="Hotels" />
                     <SearchBox searchchange={this.onSearchChange} />
                     <div className="HotelInfo">                    
-                       <div className="row HotelInfo-container">
+                       <div className="HotelInfo-container">
                        
                                     {Hotelinfo} 
                             
@@ -58,6 +70,7 @@ import SearchBox from './Searchbox';
                
                     );
                 }
+            }
             }
             
             export default HotelInfoMain;
