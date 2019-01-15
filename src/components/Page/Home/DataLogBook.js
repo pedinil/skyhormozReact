@@ -1,27 +1,27 @@
 export const DataLogBook =[
     {
-        link:"/citytour",
-        logImg:"/images/tour1.jpg",
+        link:"/tourist-attractions-uae/dubai",
+        logImg:"/images/visit/Dubai-Gold-Souk.jpg",
         avatar:"/images/tour1.jpg",
-        detail:"Atlantis Tour",
+        detail:"Dubai Gold Souk",
         location:"/citytour",
         locationContent:"awsoeme",
         linkContent:"tr-va"
     },
     {
-        link:"/citytour",
-        logImg:"/images/tour2.jpg",
+        link:"/tourist-attractions-uae/dubai",
+        logImg:"/images/visit/The-Dubai-Mall.jpg",
         avatar:"/images/tour2.jpg",
-        detail:"Abu Dhabi City Tour",
+        detail:"The Dubai Mall",
         location:"/citytour",
         locationContent:"awsoeme",
         linkContent:"Tour,vacation"
     },
     {
-        link:"/citytour",
-        logImg:"/images/tour4.jpg",
+        link:"/tourist-attractions-uae/dubai",
+        logImg:"/images/visit/Palm-Jumeirah.jpg",
         avatar:"/images/tour4.jpg",
-        detail:"Desert Safari",
+        detail:"Palm Jumeirah",
         location:"/citytour",
         locationContent:"awsoeme",
         linkContent:"to -vac"

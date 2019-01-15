@@ -11,7 +11,7 @@ import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
 import Form from '../components/Page/Form/Form';
 import HotelAddForm from '../components/Page/Hotel/HotelAddForm';
 import HotelInfoMain from '../components/Page/Hotel/HotelInfoMain';
-
+import UAEVisitMain from '../components/Page/Visit/UAEVisitMain';
 
 
 
@@ -30,6 +30,7 @@ class App extends Component {
           <Route path="/aboutus*" component={AboutUsMain} />
           <Route path="/agent*" component={Agent} />
           <Route path="/gallery*" component={Gallery} />
+          <Route path='/tourist-attractions-uae/dubai' component={UAEVisitMain} />
           <Route path='/Form' component={Form} />
           <Route path='/Form2' component={HotelAddForm} />
           <Route path='/Hotel' component={HotelInfoMain} />

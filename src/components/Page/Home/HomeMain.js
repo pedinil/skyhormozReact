@@ -75,7 +75,7 @@ class newHome extends Component {
 
                         </div>
                         <div className="logBook">
-                            <h3 class="title3-heading">Tours</h3>
+                            <h3 class="title3-heading">UAE Tourist Attractions</h3>
                             <span class="br"></span>
                             <div className="row logBook-container">
                                 {Logbook}

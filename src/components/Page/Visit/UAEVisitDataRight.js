@@ -1,5 +1,5 @@
 
-export const HomeDataRight = [
+export const UAEVisitDataRight = [
     {
         entryTitle: 'Travel To DUBAI',
         imgSrc: '/images/Dubai_IMAGE.jpg',

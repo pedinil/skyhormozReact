@@ -2,7 +2,7 @@ import React from 'react'
 
 
 
-const HomeCenter = (props) => {
+const UAEVisitCenter = (props) => {
 
 
     return (
@@ -53,4 +53,4 @@ const HomeCenter = (props) => {
 
 }
 
-export default HomeCenter;
+export default UAEVisitCenter;
