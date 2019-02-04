@@ -11,7 +11,7 @@ const SiteBranding = (props) => {
             <div className="row">
                 <div className="col-12">
                     <div className="site-branding flex flex-column align-items-center">
-                        <h1 className="site-title"><a href="index.html" rel="home">{props.titlePage}</a></h1>
+                        <h1 className="site-title"><a href="#" rel="home">{props.titlePage}</a></h1>
                     </div>
 
                        
