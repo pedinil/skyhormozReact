@@ -1,7 +1,7 @@
 export const DataHotelInfo=[
     {
-        HotelName:"Hotel1",
-        HotelDesc:"Hotel Description",
+        HotelName:"ATLANTIS THE PALM DUBAI",
+        HotelDesc:"On iconic Palm Jumeirah island in the Arabian Gulf, this posh resort is 14 km from Wild Wadi Water Park and 15 km from the upscale shops in the Mall of the Emirates. ",
         Stars:"1",
         Rooms:"2",
         Address:"l1",

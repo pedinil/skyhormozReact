@@ -30,7 +30,7 @@ class HotelInfoMain extends Component {
 
     render() {
         const filteredHotels = this.state.DataHotelInfo.filter(DataHotelInfo => {
-            return DataHotelInfo.HotelName.toLowerCase().includes(this.state.SearchH.toLowerCase())
+            return DataHotelInfo.HotelName.toLowerCase().includes(this.state.Searchfield.toLowerCase())
         });
 
 
@@ -42,25 +42,26 @@ class HotelInfoMain extends Component {
             })
         
 
-
+*/}
 
         const Hotelinfo = filteredHotels.map((result) => {
             return (
                 <HotelInfo result={result} />
             )
         });
-*/}
+
         return (
 
             <div>
                 <div className="outer-container">
                     <HotelInfoTags />
                     <HeaderAll titlePage="Hotels" />
-                    <SearchBox searchchange={this.onSearchChange} />
+                    
                     <div className="HotelInfo">
+                    
                         <div className="HotelInfo-container">
-
-                            {filteredHotels}
+                        <SearchBox searchchange={this.onSearchChange} />
+                            {Hotelinfo}
 
 
                         </div>

@@ -4,18 +4,18 @@ const SearchBox = ({ Searchfield, searchchange }) => {
     return (
         <div>
             <div class="search">
-                <div class="col-md-10 col-md-offset-1">
-                    <div class="form-section">
+                <div class="col-md-12 col-md-offset-1">
+                    <div class="row form-section">
                         <div class="col-md-4">
 
-                            <label class="sr-only" >Location</label>
-                            <input type="text" className="form-control" onChange={searchchange} placeholder="Location" />
+                            <label class="sr-only" >Hotel Name</label>
+                            <input type="text" className="form-control" onChange={searchchange} placeholder="Hotel Name" />
 
                         </div>
-                        <div class="Hotel-Names col-md-2">
+                        <div class="col-md-2">
 
                             <label class="sr-only" >Hotel-Names</label>
-                            <select class="form-control" onChange={searchchange} placeholder="Select Hotel" >
+                            <select class="form-control" placeholder="Select Hotel" onChange={searchchange} >
                                 <option value="" disabled selected>Hotels</option>
                                 <option value="1">Hotel1</option>
                                 <option value="H2">H2</option>
@@ -25,7 +25,7 @@ const SearchBox = ({ Searchfield, searchchange }) => {
                             </select>
 
                         </div>
-                        <div class="Stars-number col-md-2">
+                        <div class="col-md-2">
                             <label class="sr-only" >Stars</label>
                             <select name="Stars-number" class="form-control" onChange={searchchange}>
                                 <option value="" disabled selected>Stars</option>
@@ -37,10 +37,6 @@ const SearchBox = ({ Searchfield, searchchange }) => {
                             </select>
 
                         </div>
-
-
-
-
 
 
                     </div>
