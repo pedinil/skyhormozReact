@@ -15,7 +15,7 @@ class PackagesTags extends React.Component {
         const DescInfo = {
             titleInfo: "UAE Visa Packages",
             desc: "UAE Visa Packages manila to dubai Visa package , armenia Visa package , georgian Visa package,oman Visa package ,airport to airport Visa package ",
-            canonical: "http://skyhormoz.com/visa/dubai/packages"
+            canonical: "http://skyhormoz.com/visa/packages"
 
         }
 

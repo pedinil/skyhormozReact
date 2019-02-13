@@ -42,6 +42,33 @@ export default class Example extends React.Component {
                 <NavItem>
                 <Link className="Link" to="/"><NavLink>Home</NavLink></Link>
                 </NavItem>
+
+              <UncontrolledDropdown nav inNavbar>
+                <DropdownToggle nav caret>
+                <Link className="Link" to="/tourist-attractions-uae/dubai">Tourist</Link>
+                </DropdownToggle>
+                <DropdownMenu right>
+                  <DropdownItem>
+                  <Link className="Link" to="/tourist-attractions-uae/dubai">Dubai</Link> 
+                  </DropdownItem>
+                   {/*
+                  <DropdownItem>
+                    Dubai Visa
+                  </DropdownItem>
+                 
+                  <DropdownItem divider />
+                  <DropdownItem>
+                    Reset
+                  </DropdownItem>
+                  */}
+                </DropdownMenu>
+                  
+              </UncontrolledDropdown>
+                
+                <NavItem>
+                <Link to="/citytour" className="Link" > <NavLink>Dubai City Tour</NavLink></Link>
+                </NavItem>
+                
                 <NavItem>
                 <Link className="Link" to="/agent"><NavLink>Agents</NavLink></Link>
                 </NavItem>
@@ -73,9 +100,7 @@ export default class Example extends React.Component {
                 <Link className="Link" to="/visa"> <NavLink>Visa</NavLink></Link>
                 </NavItem>
               */}
-                <NavItem>
-                <Link to="/citytour" className="Link" > <NavLink>Dubai City Tour</NavLink></Link>
-                </NavItem>
+                
                 <NavItem>
                 <Link to="/aboutus" className="Link" ><NavLink>About Us</NavLink>
                 </Link></NavItem>
@@ -86,12 +111,23 @@ export default class Example extends React.Component {
                  <NavItem>
                 <Link to="/gallery" className="Link"><NavLink>Gallary</NavLink></Link>
                 </NavItem>
+
+                
                 {/*
                 <NavItem>
                   <Link to='/Form' className="Link"><NavLink>Form</NavLink></Link>
                 </NavItem>
-                */}
+              
+              
                 
+                <NavItem>
+                  <Link to='/Form2' className="Link"><NavLink>Form2</NavLink></Link>
+                </NavItem>
+                 
+                <NavItem>
+                  <Link to='/Hotel' className="Link"><NavLink>Hotel</NavLink></Link>
+                </NavItem>
+                 */}
     
               </Nav>
             </Collapse>

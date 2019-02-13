@@ -3,21 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@loadable/server": "^5.5.0",
     "@material-ui/core": "^3.6.1",
     "@material-ui/icons": "^3.0.1",
     "@version/react-router-v3": "^1.0.0",
     "bootstrap": "^4.1.3",
     "material-ui": "^0.20.2",
     "rc-menu": "^7.4.20",
-    "react": "^16.6.3",
+    "react": "^16.7.0",
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.6.3",
     "react-helmet": "^5.2.0",
     "react-images-upload": "^1.2.3",
+    "react-infinite-scroller": "^1.2.4",
+    "react-redux": "^6.0.0",
     "react-router-dom": "^4.3.1",
-    "react-router-sitemap": "^1.1.5",
-    "react-scripts": "2.1.1",
+    "react-scripts": "^2.1.3",
+    "react-youtube": "^7.9.0",
     "reactstrap": "^6.5.0",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
     "source-map-explorer": "^1.6.0"
   },
   "scripts": {
@@ -37,6 +42,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "file-loader": "^2.0.0"
+    "file-loader": "^2.0.0",
+    "terser": "^3.14.1"
   }
 }

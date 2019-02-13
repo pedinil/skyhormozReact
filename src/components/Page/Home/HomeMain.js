@@ -7,7 +7,8 @@ import LogBook from './LogBook';
 import { DataHomeSwipper } from './DataHomeSwipper';
 import { DataHomeCityTour } from './DataHomeCityTour';
 import { DataHomeVisaPackageTour } from './DataHomeVisaPackageTour';
-import {DataLogBook} from './DataLogBook';
+import { DataLogBook } from './DataLogBook';
+import YoutubeFirst from '../Youtube/YoutubeFirst'
 import './Home.css';
 
 
@@ -75,7 +76,7 @@ class newHome extends Component {
 
                         </div>
                         <div className="logBook">
-                            <h3 class="title3-heading">Tours</h3>
+                            <h3 class="title3-heading">UAE Tourist Attractions</h3>
                             <span class="br"></span>
                             <div className="row logBook-container">
                                 {Logbook}
@@ -87,10 +88,7 @@ class newHome extends Component {
 
 
                         <div className='swipper'>
-
-                            <iframe width="100%" height="700" src="https://www.youtube.com/embed/RVayg4SdC-Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
+                            <YoutubeFirst />
                         </div>
 
 

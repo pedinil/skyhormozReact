@@ -25,7 +25,7 @@ const HeaderComp = () => {
                                 <li><a href="https://www.facebook.com/skyhormoztravelsllc"><i  className="fa fa-facebook"></i></a></li>
                                 <li><a href="https://twitter.com/skyhormoz"><i  className="fa fa-twitter"></i></a></li>
                                 <li><a href="https://www.linkedin.com/in/sky-hormoz-7b83b216b/"><i  className="fa fa-linkedin"></i></a></li>
-                                <li><a href="https://www.instagram.com/skyhormoztravelsllc/"><i  className="fa fa-instagram"></i></a></li>
+                                <li><a href="https://www.instagram.com/skyhormoztravel/"><i  className="fa fa-instagram"></i></a></li>
                             </ul>
                         </div>
                         <div  className="header-bar-search d-none d-md-block">
