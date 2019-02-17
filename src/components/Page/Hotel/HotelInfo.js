@@ -1,11 +1,12 @@
 import React from 'react';
+import SimpleMap from '../Google Map/SimpleMap';
 
 
 const HotelInfo = (props) => {
     return (
         <div>
-            <div className="container-fluid container-hotel">
-                <div className="row hotelimg-container" >
+            <div className="container-hotel">
+                <div className="hotelimg-container" >
                     <img className="htImg" src={props.result.HotelImg} />
                 </div>
                 <div className="Hotel-details">
@@ -16,10 +17,10 @@ const HotelInfo = (props) => {
                     <p class="Number-rooms"><i class="fa fa-bed" /> Rooms: {props.result.Rooms}</p>
                     <p class="Hotel-address"><i class="fa fa-map" /> Address:{props.result.Address}</p>
                 </div>
-                <div className="Map-hotel">
-                    <div className="mapouter"><div className="gmap_canvas"><iframe width="300" height="250" id="gmap_canvas" src={props.result.Src} frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de"></a></div></div>
+                <div className='Simple-Map'>
+                <SimpleMap />
                 </div>
-
+                
 
             </div>
         </div>
