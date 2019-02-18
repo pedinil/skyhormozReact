@@ -12,8 +12,6 @@
 }
 .Hotel-details{
     text-align: left;
-    margin-top: -250px;
-    margin-left: 320px;
     width: 550px;
     
 }
@@ -22,9 +20,7 @@
     height: 250px;
     width: 250px;
     float: right;
-    margin: -250px auto;
-    margin-bottom: -40px;
-    padding-top: 10px;
+   
     
     
 }
