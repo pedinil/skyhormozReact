@@ -1,0 +1,42 @@
+.holiday-tour-container{
+    width: 100%;
+}
+.container-title{  
+  border: solid;
+  width: 100%;
+place-content: center;
+  
+    
+}
+
+.package{
+ background: black;
+ float: left;   
+ 
+
+
+}
+.Desc{
+background-color: antiquewhite;
+width: 200px;
+
+
+}
+.Rate{
+    width: 200px;
+    background-color: black;
+    float: rtl;
+   
+   
+}
+.holiday-content{
+    width: 100%;
+   
+}
+.TourPackage{
+    background-color: pink; 
+
+}
+.SellingRate{
+    background-color: blue;
+}
