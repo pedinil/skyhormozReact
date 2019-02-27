@@ -6,9 +6,13 @@ const HotelInfo = (props) => {
     return (
         <div>
             <div className="container-hotel">
+            <div className="row">
+            <div className="col-3">
                 <div className="hotelimg-container" >
                     <img className="htImg" src={props.result.HotelImg} />
                 </div>
+                </div>
+                <div className="col-6">
                 <div className="Hotel-details">
                     <h4 class="Hotel-name"><a>{props.result.HotelName}</a></h4>
 
@@ -17,11 +21,14 @@ const HotelInfo = (props) => {
                     <p class="Number-rooms"><i class="fa fa-bed" /> Rooms: {props.result.Rooms}</p>
                     <p class="Hotel-address"><i class="fa fa-map" /> Address:{props.result.Address}</p>
                 </div>
+                </div>
+                <div className="col-3">
                 <div className='Simple-Map'>
                 <SimpleMap />
                 </div>
+                </div>
                 
-
+                </div>
             </div>
         </div>
     );
