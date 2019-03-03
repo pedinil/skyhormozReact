@@ -7,17 +7,6 @@ return(
     <div>
         <div className="container-fluid">
             <div className="holiday-tour-container">
-            <div className="container-title row">
-                <div class='package-header'>
-                <h3>Tour Package</h3>
-                </div>
-                <div className="desc-header">
-                    <h3>Description</h3>
-                </div>
-                <div className="Rateheader">
-                    <h3>Selling Rate</h3>
-                </div>
-            </div>
             <div className="row container-holidayTour">
                     <div className="col-3 packages-container" >
                       <h2 class='days-night'>{props.result.daysnight}</h2>
@@ -38,8 +27,7 @@ return(
                     </div> 
                 </div>
                 <div className="col-3 Rate-col">
-                            <h4>1,360 AED
-Per Pax</h4>       
+                            <h4>{props.result.Rate}</h4>       
                 </div>
                 
                 

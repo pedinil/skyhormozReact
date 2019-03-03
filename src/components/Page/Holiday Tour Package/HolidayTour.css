@@ -1,7 +1,7 @@
 .holiday-tour-container{
     width: 100%;
     
-    padding-top: 20px;
+    
 
 }
 .container-holidayTour{
@@ -45,13 +45,6 @@
 .transfer>p{
     text-align: center;
 }
-.container-title{  
-    border-radius: 0px 0px 0px 0px;
-    -moz-border-radius: 0px 0px 0px 0px;
-    -webkit-border-radius: 0px 0px 0px 0px;
-    border: 2px solid #000000;
-  width: 100%;
-}
 .Rate-col{
     border-left-style:solid;
     border-width:1px;
@@ -62,12 +55,23 @@
   justify-content: center;
 }
 .package-header{
-    background-color: black;
-}
-.package-header>h3{
     text-align: center;
-    float: left;
 }
-.Rateheader>h3{
-    float: rtl;
+
+.Rateheader{
+    
+    float: right;
+    text-align: center;
+
+}
+.containerTitle{
+    border-radius: 0px 0px 0px 0px;
+-moz-border-radius: 0px 0px 0px 0px;
+-webkit-border-radius: 0px 0px 0px 0px;
+border: 2px solid #000000;
+width: 1300px;
+margin-left: 5px;   
+}
+.desc-header{
+    text-align: center;
 }
