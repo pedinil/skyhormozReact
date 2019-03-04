@@ -33,25 +33,25 @@ export default class Example extends React.Component {
   render() {
     return (
       <div>
-        <Navbar  light expand="md">
+        <Navbar light expand="md">
           {/*<NavbarBrand href="/">reactstrap</NavbarBrand>*/}
           <div className="ct">
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="md-auto" navbar>
                 <NavItem>
-                <Link className="Link" to="/"><NavLink>Home</NavLink></Link>
+                  <Link className="Link" to="/"><NavLink>Home</NavLink></Link>
                 </NavItem>
 
-              <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle nav caret>
-                <Link className="Link" to="/tourist-attractions-uae/dubai">Tourist</Link>
-                </DropdownToggle>
-                <DropdownMenu right>
-                  <DropdownItem>
-                  <Link className="Link" to="/tourist-attractions-uae/dubai">Dubai</Link> 
-                  </DropdownItem>
-                   {/*
+                <UncontrolledDropdown nav inNavbar>
+                  <DropdownToggle nav caret>
+                    <Link className="Link" to="/tourist-attractions-uae/dubai">Tourist</Link>
+                  </DropdownToggle>
+                  <DropdownMenu right>
+                    <DropdownItem>
+                      <Link className="Link" to="/tourist-attractions-uae/dubai">Dubai</Link>
+                    </DropdownItem>
+                    {/*
                   <DropdownItem>
                     Dubai Visa
                   </DropdownItem>
@@ -61,27 +61,30 @@ export default class Example extends React.Component {
                     Reset
                   </DropdownItem>
                   */}
-                </DropdownMenu>
-                  
-              </UncontrolledDropdown>
-                
+                  </DropdownMenu>
+
+                </UncontrolledDropdown>
+
                 <NavItem>
-                <Link to="/citytour" className="Link" > <NavLink>Dubai City Tour</NavLink></Link>
-                </NavItem>
-                
-                <NavItem>
-                <Link className="Link" to="/agent"><NavLink>Agents</NavLink></Link>
+                  <Link to="/citytour" className="Link" > <NavLink>Dubai City Tour</NavLink></Link>
                 </NavItem>
 
-              <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle nav caret>
-                <Link className="Link" to="/visa"> Visa</Link>
-                </DropdownToggle>
-                <DropdownMenu right>
-                  <DropdownItem>
-                  <Link className="Link" to="/visa/packages"> Visa Packages</Link> 
-                  </DropdownItem>
-                   {/*
+                <NavItem>
+                  <Link className="Link" to="/agent"><NavLink>Agents</NavLink></Link>
+                </NavItem>
+
+                <UncontrolledDropdown nav inNavbar>
+                  <DropdownToggle nav caret>
+                    <Link className="Link" to="/visa"> Visa</Link>
+                  </DropdownToggle>
+                  <DropdownMenu right>
+                    <DropdownItem>
+                      <Link className="Link" to="/visa/packages"> Visa Packages</Link>
+                    </DropdownItem>
+                    <DropdownItem>
+                      <Link className="Link" to="/holidaytour">Holiday Tours</Link>
+                    </DropdownItem>
+                    {/*
                   <DropdownItem>
                     Dubai Visa
                   </DropdownItem>
@@ -91,28 +94,28 @@ export default class Example extends React.Component {
                     Reset
                   </DropdownItem>
                   */}
-                </DropdownMenu>
-                  
-              </UncontrolledDropdown>
+                  </DropdownMenu>
 
-              {/*
+                </UncontrolledDropdown>
+
+                {/*
                 <NavItem>
                 <Link className="Link" to="/visa"> <NavLink>Visa</NavLink></Link>
                 </NavItem>
               */}
-                
+
                 <NavItem>
-                <Link to="/aboutus" className="Link" ><NavLink>About Us</NavLink>
-                </Link></NavItem>
+                  <Link to="/aboutus" className="Link" ><NavLink>About Us</NavLink>
+                  </Link></NavItem>
                 <NavItem>
-                <Link to="/contactus" className="Link"><NavLink>Contact Us</NavLink></Link>
+                  <Link to="/contactus" className="Link"><NavLink>Contact Us</NavLink></Link>
                 </NavItem>
 
-                 <NavItem>
-                <Link to="/gallery" className="Link"><NavLink>Gallary</NavLink></Link>
+                <NavItem>
+                  <Link to="/gallery" className="Link"><NavLink>Gallary</NavLink></Link>
                 </NavItem>
 
-                
+
                 {/*
                 <NavItem>
                   <Link to='/Form' className="Link"><NavLink>Form</NavLink></Link>
@@ -123,14 +126,16 @@ export default class Example extends React.Component {
                 <NavItem>
                   <Link to='/Form2' className="Link"><NavLink>Form2</NavLink></Link>
                 </NavItem>
-                  */}
+                 
                 <NavItem>
                   <Link to='/Hotel' className="Link"><NavLink>Hotel</NavLink></Link>
                 </NavItem>
+                
                 <NavItem>
-                  <Link to='/HolidayTour' className="Link"><NavLink>Holiday Tours</NavLink></Link>
+                  <Link to='/holidaytour' className="Link"><NavLink>Holiday Tours</NavLink></Link>
+                 
                 </NavItem>
-    
+      */}
               </Nav>
             </Collapse>
           </div>

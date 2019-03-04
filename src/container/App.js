@@ -39,10 +39,12 @@ class App extends Component {
             <Route path="/agent*" component={Agent} />
             <Route path="/gallery*" component={Gallery} />
             <Route path='/tourist-attractions-uae/dubai' component={UAEVisitMain} />
+            {/*
             <Route path='/Form' component={Form} />
             <Route path='/Form2' component={HotelAddForm} />
             <Route path='/Hotel' component={HotelInfoMain} />
-            <Route path='/HolidayTour' component={HolidayTourPackageMain} />
+            */}
+            <Route path='/holidaytour' component={HolidayTourPackageMain} />
             <Route exact path="/visa.html" component={VisaMain} >
               <Redirect from='/visa.html' to='/visa' />
             </Route>

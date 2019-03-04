@@ -21,7 +21,9 @@ class HolidayTourPackageMain extends Component{
                                 <HolidayTourTags />
                                 <HeaderAll titlePage="Holiday Tour Package"/>
                                 <div className="Holiday-Main-Container">
+                                {/*
                                 <div className="containerTitle row">
+                                
                                      <div class='col-3 package-header'>
                                          <h3>Tour Package</h3>
                                      </div>
@@ -31,7 +33,9 @@ class HolidayTourPackageMain extends Component{
                                 <div className="col-3 Rateheader">
                                           <h3>Selling Rate</h3>
                                 </div>
+                               
                                  </div>
+                                  */}
                                   {HolidayTours}
                                 </div>
                                 <FooterAll />
