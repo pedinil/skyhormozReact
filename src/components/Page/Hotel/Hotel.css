@@ -1,8 +1,10 @@
 .container-hotel{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
+    height: 250px;
     background:white;
-    
+    width: 1250px;
+    margin: 10px auto;
+   
 }
 .htImg{
     width: 300px;
@@ -10,20 +12,27 @@
 }
 .Hotel-details{
     text-align: left;
-    margin-top: -250px;
-    margin-left: 370px;
+    width: 550px;
     
 }
-.Map-hotel{
-    text-align: right;
-    margin-top:-210px;
-    padding: 5px;
+
+.Simple-Map{
+    height: 250px;
+    width: 250px;
+    float: right;
+   
+    
+    
 }
 .hotelimg-container{
-    padding: 10px;
+    
+    
+    width: 300px;
+    height: 250px;
+   
 }
 .container-hotel:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
   }
 
 .fa-star{
@@ -33,6 +42,7 @@
     width: 1500px;   
    text-align: center;
    padding-left: 70px;
+ 
 }
 
 

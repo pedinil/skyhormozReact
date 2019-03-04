@@ -1,0 +1,75 @@
+.holiday-tour-container{
+    padding-top: 20px;
+}
+.container-holidayTour{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding-top: 10px;
+    background-color: white;
+}
+.packages-container{
+    border-width:1px;
+    border-color: silver;  
+    border-right-style:solid;
+    float: left;
+    height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    
+}
+.desc-title{
+    text-align: center;
+    border-bottom-style: dotted;
+    border-width: 2px;
+    border-color: silver;
+   
+}
+.Days{
+    border-bottom-style: dotted;
+    border-width: 2px;
+    border-color: silver;   
+}
+.Days>p{
+    text-align: center;
+}
+.tours{
+    border-bottom-style: dotted;
+    border-width: 2px;
+    border-color: silver;   
+}
+.tours>p{
+    text-align: center;
+}
+.transfer>p{
+    text-align: center;
+}
+.Rate-col{
+    border-left-style:solid;
+    border-width:1px;
+    border-color: silver;  
+    height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.package-header{
+    text-align: center;
+}
+
+.Rateheader{
+    
+    float: right;
+    text-align: center;
+
+}
+.containerTitle{
+    border-radius: 0px 0px 0px 0px;
+-moz-border-radius: 0px 0px 0px 0px;
+-webkit-border-radius: 0px 0px 0px 0px;
+border: 2px solid #000000;
+width: 1300px;
+margin-left: 5px;   
+}
+.desc-header{
+    text-align: center;
+}

@@ -20,7 +20,7 @@ const Form = React.lazy(() => import('../components/Page/Form/Form'));
 const HotelAddForm = React.lazy(() => import('../components/Page/Hotel/HotelAddForm'));
 const HotelInfoMain = React.lazy(() => import('../components/Page/Hotel/HotelInfoMain'));
 const UAEVisitMain = React.lazy(() => import('../components/Page/Visit/UAEVisitMain'));
-
+const HolidayTourPackageMain =React.lazy(()=> import('../components/Page/Holiday Tour Package/HolidayTourPackageMain'));
 
 
 
@@ -39,10 +39,12 @@ class App extends Component {
             <Route path="/agent*" component={Agent} />
             <Route path="/gallery*" component={Gallery} />
             <Route path='/tourist-attractions-uae/dubai' component={UAEVisitMain} />
+            {/*
             <Route path='/Form' component={Form} />
             <Route path='/Form2' component={HotelAddForm} />
             <Route path='/Hotel' component={HotelInfoMain} />
-
+            */}
+            <Route path='/holidaytour' component={HolidayTourPackageMain} />
             <Route exact path="/visa.html" component={VisaMain} >
               <Redirect from='/visa.html' to='/visa' />
             </Route>
