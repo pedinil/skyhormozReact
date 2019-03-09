@@ -7,7 +7,7 @@ class HotelInfoTags extends React.Component{
         const DescInfo={
             titleInfo:"Hotel Info",
             desc:"desc",
-            canonical:"http://skyhormoz.com/visa/Hotel-info"
+            canonical:"https://skyhormoz.com/visa/Hotel-info"
 
 
         }

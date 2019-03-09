@@ -8,6 +8,8 @@ import { DataHomeSwipper } from './DataHomeSwipper';
 import { DataHomeCityTour } from './DataHomeCityTour';
 import { DataHomeVisaPackageTour } from './DataHomeVisaPackageTour';
 import { DataLogBook } from './DataLogBook';
+import { DataHomeHolidayPackages } from './DataHomeHolidayPackages';
+import HomeHolidayPackages from "./HomeHolidayPackages"
 import YoutubeFirst from '../Youtube/YoutubeFirst'
 import './Home.css';
 
@@ -39,6 +41,14 @@ class newHome extends Component {
         const HomeVisaPackageTour = DataHomeVisaPackageTour.map((result) => {
             return (
                 <HomeSwipper result={result} />
+            )
+
+        });
+
+
+        const HomeHolidayPackagesList = DataHomeHolidayPackages.map((result) => {
+            return (
+                <HomeHolidayPackages result={result} />
             )
 
         });
@@ -87,9 +97,19 @@ class newHome extends Component {
 
 
 
+                        {/*
                         <div className='swipper'>
                             <YoutubeFirst />
                         </div>
+                        */}
+
+                        <div className="logBook">
+                        <h3 class="title3-heading">Holiday Packges</h3>
+                            <div className="row">
+                                {HomeHolidayPackagesList}
+                            </div>
+                        </div>
+
 
 
                     </div>

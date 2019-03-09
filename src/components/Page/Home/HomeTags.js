@@ -15,7 +15,7 @@ class HomeTags extends React.Component {
         const DescInfo = {
             titleInfo: 'Sky Hormoz Travel',
             desc: ' Travel Management Package , 30 Days  Dubai VISA , 90 Days Dubai Visa , Airport to Airport Visa packages , Dubai Visa Prices , Sharjah Visa  ,MANILA TO DUBAI PACKAGE ,ARMENIA To Dubai VISA PACKAGE ,OMAN To Dubai VISA PACKAGE',
-            canonical: 'http://skyhormoz.com'
+            canonical: 'https://skyhormoz.com'
 
         }
 

@@ -2,7 +2,7 @@ export const DataHomeVisaPackageTour = [
     {
         description: 'MANILA TO DUBAI PACKAGE ',
         cardimg: '/images/manila-packges.jpg',
-        imgAlt: '',
+        imgAlt: 'MANILA TO DUBAI PACKAGE',
         button: "MANILA TO DUBAI PACKAGE",
         Url: '/visa/packages',
 
@@ -11,7 +11,7 @@ export const DataHomeVisaPackageTour = [
     {
         description: 'ARMENIA VISA PACKAGE ',
         cardimg: '/images/Armenia_IMAGE.jpg',
-        imgAlt: '',
+        imgAlt: 'ARMENIA VISA PACKAGE',
         button: 'ARMENIA VISA PACKAGE ',
         Url: '/visa/packages',
 
@@ -19,7 +19,7 @@ export const DataHomeVisaPackageTour = [
     {
         description: 'GEORGIAN VISA PACKAGE',
         cardimg: '/images/georgian.jpg',
-        imgAlt: '',
+        imgAlt: 'GEORGIAN VISA PACKAGE',
         button: 'GEORGIAN VISA PACKAGE',
         Url: '/visa/packages',
 

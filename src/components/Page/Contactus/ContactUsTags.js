@@ -15,7 +15,7 @@ class ContactUsTags extends React.Component {
         const DescInfo = {
             titleInfo: "ContactUs",
             desc: "desc",
-            canonical: "http://skyhormoz.com/contactus"
+            canonical: "https://skyhormoz.com/contactus"
 
         }
 
